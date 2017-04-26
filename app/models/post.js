@@ -1,8 +1,8 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  title: DS.attr(),
-  image: DS.attr(),
+  body: DS.attr(),
   date: DS.attr(),
-  body: DS.attr()
+  image: DS.attr(),
+  title: DS.attr()
 });

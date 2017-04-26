@@ -2,14 +2,15 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    savePost() {
-      var params = {
-        title: this.get('title'),
-        image: this.get('image'),
-        date: this.get('date'),
-        body: this.get('body'),
-      };
-      this.sendAction('savePost', params);
+
+  savePost() {
+    var params = {
+      body: this.get('body'),
+      date: this.get('date'),
+      image: this.get('image'),
+      title: this.get('title')
+    };
+    this.sendAction('savePost', params);
     }
   }
 });
