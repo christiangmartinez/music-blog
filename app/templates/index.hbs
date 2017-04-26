@@ -3,7 +3,7 @@
     <h1>Best Ever Music Blog <small><i>~ it's the beeeest ~</i></small></h1>
   </div>
   {{#each model.posts as |post|}}
-    {{post-tile post=post}}
+    {{post-tile post=post update="update"}}
   {{/each}}
   {{#link-to 'post-form'}}New Post{{/link-to}}
 </div>

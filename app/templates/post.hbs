@@ -1,6 +1,9 @@
-<img src={{model.imageURL}} alt={{model.title}}>
+<div class="container">
+  <img src={{model.image}} alt={{model.title}}>
 
-<h2>{{model.title}}</h2>
-<h4>{{model.date}}</h4>
+  <h2>{{model.title}}</h2>
+  <h4>{{model.date}}</h4>
 
-<p>{{model.body}}</p>
+  <p>{{model.body}}</p>
+  {{update-post post=model update="update"}}
+</div>
