@@ -1,5 +1,5 @@
 .header {
-  background-image: url(http://az616578.vo.msecnd.net/files/2016/06/03/636005829335318291-2096686359_Homer-Simpsons-Music-Headphones-Anime.jpg);
+  background-image: url(http://i.imgur.com/uMSxaAb.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -12,4 +12,15 @@
   transition-timing-function: ease;
 }
 .navbar {
+}
+
+body {
+  background-image: url(https://w-dog.net/wallpapers/0/1/485465727795007/cassette-music-close-up-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.well {
+  background-color: #f8f8f8;
 }
