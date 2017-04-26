@@ -1,1 +1,9 @@
-{{outlet}}
+<div class="container">
+  <div class="page-header">
+    <h1>Best Ever Music Blog <small><i>~ it's the beeeest ~</i></small></h1>
+  </div>
+  {{#each model as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
+  {{#link-to 'post-form'}}New Post{{/link-to}}
+</div>
