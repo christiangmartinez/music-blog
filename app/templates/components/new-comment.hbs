@@ -1,0 +1,13 @@
+<div class="img-reponsive">
+  <form>
+    <div class="form-group">
+      <label for="username">Username</label>
+      {{input value=username id="username"}}
+    </div>
+    <div class="form-group">
+      <label for="message">Enter Comment</label>
+      {{input value=message id="message"}}
+    </div>
+    <button {{action 'saveComment'}}>Add Comment</button>
+  </form>
+</div>

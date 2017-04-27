@@ -19,8 +19,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .well {
   background-color: #f8f8f8;
+}
+
+form {
+  display: inline-block;
 }
